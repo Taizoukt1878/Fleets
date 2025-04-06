@@ -3,3 +3,5 @@ JS_files/
 .venv/
 Sounds/
 sounds/
+pycache/
+__pycache__/
