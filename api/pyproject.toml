@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fleet-api"
+version = "0.1.0"
+description = "api for reading, processing, S2T, database_manipulation, and T2S"
+authors = ["anouar taizoukt <ataizoukt@leyton.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+fastapi = "^0.115.6"
+pydantic = "^2.10.4"
+soundfile = "^0.12.1"
+uvicorn = "^0.34.0"
+python-multipart = "^0.0.20"
+groq = "^0.13.1"
+librosa = "^0.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
