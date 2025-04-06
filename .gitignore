@@ -5,3 +5,4 @@ Sounds/
 sounds/
 pycache/
 __pycache__/
+*.json
